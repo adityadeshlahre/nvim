@@ -2,7 +2,7 @@ return {
   "folke/which-key.nvim",
   event = "VeryLazy",
   config = function()
-    require("which-key").setup({
+    require("which-key").setup(opts == {
       window = {
         border = "single",
         position = "bottom",
